@@ -9,12 +9,10 @@ public enum Permissions {
 
     private final String permission;
 
-    // Explicit constructor
     Permissions(String permission) {
         this.permission = permission;
     }
 
-    // Explicit getter
     public String getPermission() {
         return permission;
     }

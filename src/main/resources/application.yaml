@@ -27,7 +27,7 @@ spring:
       enabled: true
 
 jwt:
-  secretKey: "${JWT_SECRET_KEY}"
+  secretKey: "migisha53AkuzweGisele#!123"
 
 
 

@@ -1,7 +1,6 @@
 package com.gizzo.rra_vehicle.services;
 
 import com.gizzo.rra_vehicle.dtos.*;
-import com.trex.rra_vehicle.dtos.*;
 import com.gizzo.rra_vehicle.entities.History;
 import com.gizzo.rra_vehicle.entities.Transfer;
 import com.gizzo.rra_vehicle.exceptions.BadRequestException;
