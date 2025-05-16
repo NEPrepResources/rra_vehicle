@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: rra_vehicle
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/rra_vehicle
+    username: postgres
+    password: yezu
+
+
+
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true
+
+jwt:
+  secretKey: "${JWT_SECRET_KEY}"
+
+
+
+
+server:
+  port: 9000
+
+uploads:
+  extensions: pdf,png,jpeg,jpg
+  directory: { user_profiles: /opt/ne-springboot/uploads/user_profiles, docs: /opt/ne-springboot/uploads/docs }
